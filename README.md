@@ -44,3 +44,33 @@ Métricas de Performance: R-Quadrado, MSE, RMSE, MAE, MAPE.
 - Algoritmos: K-Means, Affinity Propagation;
 - Métricas de Performance: Silhouette Score.
 
+## Resultados Obtidos
+
+### Classificação
+
+- Treino
+
+| **Model**               | **Accuracy** | **Precision** | **Recall** | **F1 Score** |
+|-------------------------|:------------:|:-------------:|:----------:|:------------:|
+| **KNN**                 | 0.782        | 0.756         | 0.733      | 0.744        |
+| **Decision Tree**       | 1.0          | 1.0           | 1.0        | 1.0          |
+| **Random Forest**       | 1.0          | 1.0           | 1.0        | 1.0          |
+| **Logistic Regression** | 0.567        | 0.0           | 0.0        | 0.0          |
+
+- Validação
+
+| **Model**               | **Accuracy** | **Precision** | **Recall** | **F1 Score** |
+|-------------------------|:------------:|:-------------:|:----------:|:------------:|
+| **KNN**                 | 0.676        | 0.632         | 0.603      | 0.617        |
+| **Decision Tree**       | 0.945        | 0.935         | 0.938      | 0.936        |
+| **Random Forest**       | 0.965        | 0.974         | 0.944      | 0.959        |
+| **Logistic Regression** | 0.567        | 0.0           | 0.0        | 0.0          |
+
+- Teste
+
+| **Model**               | **Accuracy** | **Precision** | **Recall** | **F1 Score** |
+|-------------------------|:------------:|:-------------:|:----------:|:------------:|
+| **KNN**                 | 0.681        | 0.675         | 0.525      | 0.591        |
+| **Decision Tree**       | 0.955        | 0.954         | 0.944      | 0.949        |
+| **Random Forest**       | 0.965        | 0.974         | 0.946      | 0.960        |
+| **Logistic Regression** | 0.872        | 0.868         | 0.835      | 0.851        |
