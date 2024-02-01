@@ -74,3 +74,6 @@ Métricas de Performance: R-Quadrado, MSE, RMSE, MAE, MAPE.
 | **Decision Tree**       | 0.955        | 0.954         | 0.944      | 0.949        |
 | **Random Forest**       | 0.965        | 0.974         | 0.946      | 0.960        |
 | **Logistic Regression** | 0.872        | 0.868         | 0.835      | 0.851        |
+
+
+

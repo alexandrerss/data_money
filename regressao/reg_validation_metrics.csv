@@ -1,6 +1,6 @@
-0,Linear Regression,0.04,458.447,2141.138,17.04,8.683
-0,Decision Tree Regressor,-0.311,626.05,25.021,17.251,7.09
-0,Random Forest Regressor,0.335,317.722,17.825,13.01,6.965
+0,Linear Regression,0.04,458.447,21.411,17.04,8.683
+0,Decision Tree Regressor,-0.293,617.528,24.85,17.141,6.88
+0,Random Forest Regressor,0.332,318.793,17.855,13.017,7.046
 0,Polinomial Regression,0.066,445.768,21.113,16.75,8.548
 0,Linear Regression Lasso,0.008,473.747,21.766,17.265,8.696
 0,Linear Regression Ridge,0.04,458.445,21.411,17.039,8.682
