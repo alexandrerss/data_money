@@ -76,4 +76,57 @@ Métricas de Performance: R-Quadrado, MSE, RMSE, MAE, MAPE.
 | **Logistic Regression** | 0.872        | 0.868         | 0.835      | 0.851        |
 
 
+### Regressão
 
+- Treino
+
+| **Model**                              | **R-Squared** | **MSE** | **RMSE** | **MAE** | **MAPE** |
+|----------------------------------------|:-------------:|:-------:|:--------:|:-------:|:--------:|
+| **Linear Regression**                  | 0.046         | 455.996 | 21.354   | 16.998  | 8.653    |
+| **Decision Tree - Regressor**          | 0.992         | 3.940   | 1.985    | 0.214   | 0.083    |
+| **Random Forest Regressor**            | 0.903         | 46.332  | 6.807    | 4.862   | 2.602    |
+| **Polynomial Regression**              | 0.094         | 432.986 | 20.808   | 16.458  | 8.351    |
+| **Linear Regression - Lasso**          | 0.007         | 474.475 | 21.782   | 17.305  | 8.737    |
+| **Linear Regression - Ridge**          | 0.046         | 455.996 | 21.354   | 16.998  | 8.653    |
+| **Linear Regression - ElasticNet**     | 0.008         | 474.269 | 21.778   | 17.300  | 8.732    |
+| **Polynomial Regression - Lasso**      | 0.009         | 473.639 | 21.763   | 17.285  | 8.700    |
+| **Polynomial Regression - Ridge**      | 0.093         | 433.475 | 20.820   | 16.472  | 8.373    |
+| **Polynomial Regression - ElasticNet** | 0.013         | 471.878 | 21.723   | 17.244  | 8.679    |
+
+- Validação
+
+| **Model**                              | **R-Squared** | **MSE** | **RMSE** | **MAE** | **MAPE** |
+|----------------------------------------|:-------------:|:-------:|:--------:|:-------:|:--------:|
+| **Linear Regression**                  | 0.040         | 458.447 | 21.411   | 17.040  | 8.683    |
+| **Decision Tree - Regressor**          | -0.293        | 617.528 | 24.850   | 17.141  | 6.880    |
+| **Random Forest Regressor**            | 0.332         | 318.793 | 17.855   | 13.017  | 7.046    |
+| **Polynomial Regression**              | 0.066         | 445.768 | 21.113   | 16.750  | 8.548    |
+| **Linear Regression - Lasso**          | 0.008         | 473.747 | 21.766   | 17.265  | 8.696    |
+| **Linear Regression - Ridge**          | 0.040         | 458.445 | 21.411   | 17.039  | 8.682    |
+| **Linear Regression - ElasticNet**     | 0.008         | 473.636 | 21.763   | 17.263  | 8.694    |
+| **Polynomial Regression - Lasso**      | 0.010         | 472.913 | 21.747   | 17.238  | 8.682    |
+| **Polynomial Regression - Ridge**      | 0.068         | 445.184 | 21.099   | 16.739  | 8.569    |
+| **Polynomial Regression - ElasticNet** | 0.013         | 471.408 | 21.712   | 17.200  | 8.675    |
+
+- Teste
+
+| **Model**                              | **R-Squared** | **MSE** | **RMSE** | **MAE** | **MAPE** |
+|----------------------------------------|:-------------:|:-------:|:--------:|:-------:|:--------:|
+| **Linear Regression**                  | 0.051         | 461.988 | 21.494   | 17.144  | 8.531    |
+| **Decision Tree - Regressor**          | -0.15         | 560.107 | 23.667   | 15.695  | 6.091    |
+| **Random Forest Regressor**            | 0.342         | 320.237 | 17.895   | 13.178  | 6.533    |
+| **Polynomial Regression**              | 0.091         | 442.641 | 21.039   | 16.736  | 8.277    |
+| **Linear Regression - Lasso**          | 0.051         | 461.988 | 21.494   | 17.144  | 8.531    |
+| **Linear Regression - Ridge**          | 0.051         | 462.243 | 21.500   | 17.142  | 8.553    |
+| **Linear Regression - ElasticNet**     | 0.051         | 461.988 | 21.494   | 17.144  | 8.531    |
+| **Polynomial Regression - Lasso**      | 0.091         | 442.674 | 21.400   | 16.734  | 8.288    |
+| **Polynomial Regression - Ridge**      | 0.090         | 442.967 | 21.047   | 16.742  | 8.309    |
+| **Polynomial Regression - ElasticNet** | 0.091         | 442.674 | 21.400   | 16.734  | 8.288    |
+
+
+### Clusterização
+
+| **Model**                | **N Clusters** | **Average Silhouette Score** |
+|--------------------------|:--------------:|:----------------------------:|
+| **K-Means**              | 3              | 0.233                        |
+| **Affinity Propagation** | 3              | 0.215                        |
